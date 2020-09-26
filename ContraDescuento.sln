@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraDescuento.GUI", "ContraDescuento.GUI\ContraDescuento.GUI.csproj", "{C597B4F6-834C-4EA7-B341-CDC584B09060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraDescuento.Acceso", "ContraDescuento.Acceso\ContraDescuento.Acceso.csproj", "{F4BC59FF-5790-4351-9777-DB7695C8C1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraDescuento.BE", "ContraDescuento.BE\ContraDescuento.BE.csproj", "{F07A5778-2E61-4D4D-BF10-571E317EE4CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraDescuento.BLL", "ContraDescuento.BLL\ContraDescuento.BLL.csproj", "{2AF50690-904F-42E0-91E5-89DDEA696DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraDescuento.DAL", "ContraDescuento.DAL\ContraDescuento.DAL.csproj", "{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraDescuento.TFL", "ContraDescuento.TFL\ContraDescuento.TFL.csproj", "{09E059C9-5390-4E74-B80B-5A7947E823B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Debug|x86.Build.0 = Debug|Any CPU
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Release|x86.ActiveCfg = Release|Any CPU
+		{C597B4F6-834C-4EA7-B341-CDC584B09060}.Release|x86.Build.0 = Release|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4BC59FF-5790-4351-9777-DB7695C8C1D4}.Release|x86.Build.0 = Release|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Debug|x86.Build.0 = Debug|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{F07A5778-2E61-4D4D-BF10-571E317EE4CA}.Release|x86.Build.0 = Release|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Debug|x86.Build.0 = Debug|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Release|x86.ActiveCfg = Release|Any CPU
+		{2AF50690-904F-42E0-91E5-89DDEA696DAA}.Release|x86.Build.0 = Release|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Debug|x86.Build.0 = Debug|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D69B9FF-D786-4404-BE61-0AEDE3E8CD71}.Release|x86.Build.0 = Release|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{09E059C9-5390-4E74-B80B-5A7947E823B6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4AFD82C-34D9-4295-8FCC-99F7B9F5B664}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/ignacioaguilera
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ContraDescuento.Acceso\\ContraDescuento.Acceso.csproj
+		SccProjectName1 = ContraDescuento.Acceso
+		SccLocalPath1 = ContraDescuento.Acceso
+		SccProjectUniqueName2 = ContraDescuento.BE\\ContraDescuento.BE.csproj
+		SccProjectName2 = ContraDescuento.BE
+		SccLocalPath2 = ContraDescuento.BE
+		SccProjectUniqueName3 = ContraDescuento.BLL\\ContraDescuento.BLL.csproj
+		SccProjectName3 = ContraDescuento.BLL
+		SccLocalPath3 = ContraDescuento.BLL
+		SccProjectUniqueName4 = ContraDescuento.DAL\\ContraDescuento.DAL.csproj
+		SccProjectName4 = ContraDescuento.DAL
+		SccLocalPath4 = ContraDescuento.DAL
+		SccProjectUniqueName5 = ContraDescuento.GUI\\ContraDescuento.GUI.csproj
+		SccProjectName5 = ContraDescuento.GUI
+		SccLocalPath5 = ContraDescuento.GUI
+		SccProjectUniqueName6 = ContraDescuento.TFL\\ContraDescuento.TFL.csproj
+		SccProjectName6 = ContraDescuento.TFL
+		SccLocalPath6 = ContraDescuento.TFL
+	EndGlobalSection
+EndGlobal

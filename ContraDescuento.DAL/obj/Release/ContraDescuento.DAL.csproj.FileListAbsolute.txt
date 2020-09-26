@@ -1,0 +1,11 @@
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\bin\Release\ContraDescuento.DAL.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\bin\Release\ContraDescuento.DAL.pdb
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\bin\Release\ContraDescuento.Acceso.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\bin\Release\ContraDescuento.BE.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\bin\Release\ContraDescuento.Acceso.pdb
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\bin\Release\ContraDescuento.BE.pdb
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\obj\Release\ContraDescuento.DAL.csprojAssemblyReference.cache
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\obj\Release\ContraDescuento.DAL.csproj.CoreCompileInputs.cache
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\obj\Release\ContraDescuento.DAL.csproj.CopyComplete
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\obj\Release\ContraDescuento.DAL.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.DAL\obj\Release\ContraDescuento.DAL.pdb

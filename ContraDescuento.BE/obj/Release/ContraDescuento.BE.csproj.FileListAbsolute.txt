@@ -1,0 +1,6 @@
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.BE\bin\Release\ContraDescuento.BE.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.BE\bin\Release\ContraDescuento.BE.pdb
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.BE\obj\Release\ContraDescuento.BE.csprojAssemblyReference.cache
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.BE\obj\Release\ContraDescuento.BE.csproj.CoreCompileInputs.cache
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.BE\obj\Release\ContraDescuento.BE.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.BE\obj\Release\ContraDescuento.BE.pdb

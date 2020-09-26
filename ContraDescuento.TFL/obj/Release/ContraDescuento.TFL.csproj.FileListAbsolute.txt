@@ -1,0 +1,9 @@
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\bin\Release\ContraDescuento.TFL.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\bin\Release\ContraDescuento.TFL.pdb
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\bin\Release\ContraDescuento.BE.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\bin\Release\ContraDescuento.BE.pdb
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\obj\Release\ContraDescuento.TFL.csprojAssemblyReference.cache
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\obj\Release\ContraDescuento.TFL.csproj.CoreCompileInputs.cache
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\obj\Release\ContraDescuento.TFL.csproj.CopyComplete
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\obj\Release\ContraDescuento.TFL.dll
+D:\Dropbox\Educación\UAI\TFI\Proyecto\ContraDescuento\ContraDescuento.TFL\obj\Release\ContraDescuento.TFL.pdb

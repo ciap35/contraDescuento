@@ -1,0 +1,222 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ContraDescuento.GUI.Site" %>
+
+<%@ Register Src="~/UserControl/ucLogin.ascx" TagPrefix="uc1" TagName="Login" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+    <link href="~/Recurso/Ico/favicon.ico" rel="icon" type="image/x-icon" />
+    <!--Librerias CSS.. -->
+    <link href="Lib/Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="Lib/Style/animate/animate.css" rel="stylesheet" />
+    <link href="Lib/Style/Main.css" rel="stylesheet" />
+    <!--Librerias JS.. -->
+    <script src="Lib/Jquery/jquery-3.4.1.js"></script>
+    <script src="Lib/Bootstrap/js/bootstrap.js"></script>
+    
+    <link href="Lib/Style/mdb.min.css" rel="stylesheet" />
+
+
+
+
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    
+
+<script type="text/javascript">
+    function preventBack() { window.history.forward(); }
+    setTimeout("preventBack()", 0);
+    window.onunload = function () { null };
+</script>
+
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <asp:HiddenField ID="hdnIdiomaSeleccionado" runat="server" />
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand animated rubberBand infinite slower" href="Index.aspx">Contra Descuento</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+             <span id="litUsuarioSaludo" runat="server" visible="false" style="font-size:16px;color: #ffffff; font-weight: bold;margin-right:10px;margin-left:20px;">Bienvenido/a: &nbsp;&nbsp;&nbsp;</span> <a id="lnkPerfilUsuario" href="MiPerfil.aspx" runat="server" visible="false" style="font-size:14px;color:#FFC107">&nbsp;</a>
+              <ul class="navbar-nav navbar-dark  " runat="server" id="menuAdministrador" visible="false" style="margin-right:15px;margin-left:30px;padding-right:-2px !important" >
+                  <li class="nav-item dropdown" runat="server" id="MenuItemAdministrador">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">
+                          <img src="Recurso/Ico/square-menu.png" height="30" alt="MENU"  />&nbspMENU
+                      </a>
+                      <div class="dropdown-menu dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item text-info text-center" href="DigitoVerificador.aspx" runat="server" ID="MenuDigitoVerificadorMenu">Dígitos Verificadores</a>
+                          <a class="dropdown-item text-info text-center" href="Backup.aspx" runat="server" ID="MenuBackup">Backup</a>
+                          <a class="dropdown-item text-info text-center" href="Restore.aspx" runat="server" ID="MenuRestore">Restore</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item text-info text-center" href="Grupos.aspx" runat="server" ID="MenuGrupos">Gestión de Grupos y permisos</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item text-info text-center" href="Bitacora.aspx" runat="server" ID="MenuBitacora">Bitacora de Sistema</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item text-info text-center" href="Idioma.aspx" runat="server" ID="MenuIdioma">&nbsp; Idioma</a>
+                      </div>
+                  </li>
+              </ul>
+
+                
+            <%--<ul class="navbar-nav navbar-dark " runat="server" id="menuComercio" visible="false" style="margin-right:50px; margin-left:50px">
+                  <li class="nav-item dropdown" runat="server" id="menuItemComercio">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="Recurso/Ico/square-menu.png" height="30" alt="MENU"  />&nbspMENU
+                      </a>
+                      <div class="dropdown-menu dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item text-info text-center" href="Comercio.aspx">Mi Comercio</a>
+                          <a class="dropdown-item text-info text-center" href="#">Mis Productos</a>
+                          <a class="dropdown-item text-info text-center" href="#">Mis campañas de Descuentos</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item text-info text-center" href="#">Mis resultados</a>
+                          <div class="dropdown-divider"></div>
+                      </div>
+                  </li>
+              </ul>--%>
+
+            
+            <ul class="navbar-nav" runat="server" id="menuUsuario">
+             
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.aspx" ID="Menu_Inicio" runat="server">Inicio</a>
+                </li>
+                <li class="nav-item">
+                   <div id="DivMisdescuentos" runat="server"> <a class="nav-link" href="MisDescuentos.aspx" ID="Menu_BuscarDescuentos" runat="server">Mis de descuentos</a></div>
+                </li>
+             <%--   <li class="nav-item ">
+                    <a class="nav-link" href="#" ID="Menu_Destacados" runat="server">Destacados</a>
+                </li>--%>
+                <li class="nav-item">
+                   <div id="DivRegistrarComercio" runat="server">  <a class="nav-link" href="ComercioRegistrar.aspx" ID="Menu_PublicarDescuentos" runat="server">Publicar Descuentos</a></div>
+                </li>
+            </ul> 
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div style="margin-right: 0px !important;margin-top:5px;">
+                                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="Recurso/Ico/traducir.png" width="24px" height="24px"/>&nbsp;<asp:Literal ID="litDDLIdioma" runat="server" Text=" IDIOMA" ></asp:Literal>
+                        </button>
+                       
+                    <asp:Repeater ID="rptIdioma" runat="server" OnItemDataBound="rptIdioma_ItemDataBound" OnItemCommand="rptIdioma_ItemCommand">
+                        <HeaderTemplate>
+                            <div class="dropdown-menu">
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <asp:LinkButton CssClass="dropdown-item" ID="lnkBtnIdiomaItem" runat="server" CommandName="SeleccionarIdioma" CommandArgument='<%# Eval("CodIdioma") %>' CausesValidation="false"></asp:LinkButton>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </div>
+                        </FooterTemplate>
+                    </asp:Repeater>
+                                          &nbsp;&nbsp;&nbsp;
+                       <div id="menuComercio" runat="server" visible="false">
+                                        <button type="button" class="btn btn-warning" aria-expanded="false" visible="false">
+                          <img src="Recurso/Ico/store.png" width="24px" height="24px"/><asp:LinkButton ID="lnkMenuComercio" runat="server" Text="Mi comercio" PostBackUrl="~/ComercioAdministracion.aspx" Font-Bold="true"></asp:LinkButton>
+                        </button>
+                           </div>
+                    </div>
+
+              
+                &nbsp;&nbsp;&nbsp;&nbsp;<a id="btnLogin" class="btn btn-outline-primary align-top " href="Login.aspx" runat="server">
+                    <literal id="litbtnIngresar" runat="server">Ingresar</literal>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="btnLogout" class="btn btn-outline-primary " href="Logout.aspx" runat="server" visible="false">
+                    <literal id="litbtnLogout" runat="server">Cerrar sesión</literal>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a  class="btn btn-primary " href="UsuarioRegistrar.aspx"  id="btnRegistrarUsuario" runat="server"> 
+                    <literal id="litbtnRegistrarse" runat="server">Registrarse</literal>
+                </a>
+
+
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+    <!-- -->
+        
+        <div class="container-fluid">
+            <div id="divMensajeOK" runat="server" visible="false" class="alert alert-success animated fadeInDown slower delay-1s ">
+                <div class="alert alert-success" role="alert">
+                    <%--<h4>Status</h4>
+                    <hr />--%>
+                    <p class="mb-0">
+                        <asp:Literal ID="litMensajeOk" runat="server" Visible="false"></asp:Literal>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid" ">
+               <div id="container">
+            <div id="divMensajeError" runat="server" visible="false" class="animated fadeInDown slower delay-1s  ">
+
+                <div class="alert alert-danger" role="alert">
+                    <h4 class="alert-heading">¡Ups!</h4>
+                    <hr />
+                    <asp:Literal ID="litMensajeError" runat="server" Visible="false"></asp:Literal>
+                    <br />
+                    <img src="Recurso/Imagen/Error.png" width="400px" height="400px" />
+                </div>
+
+            </div>
+        </div>
+
+
+            <asp:ContentPlaceHolder ID="cphBody" runat="server">
+               
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+
+        <asp:ContentPlaceHolder ID="cphFooter" runat="server">
+                    </asp:ContentPlaceHolder>
+            <footer class="pt-4 md-5 pt-md-5 border-top bg-light" style="margin-top:100px;">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2 zoom" src="Recurso/Imagen/logo.png" alt="" width="200px" height="150px">
+                        <!--Facebook-->
+                        CONTRA DESCUENTO
+        <small class="d-block mb-3 text-muted">Carlos Ignacio Aguilera Patalano - TFI © 2019</small>
+                    </div>
+                    <%--<div class="col-6 col-md">
+                        <h5>AYUDA</h5>
+                        <ul class="list-unstyled text-small">
+                           <li><a class="text-muted" href="#">Acerca nuestro</a></li>
+                            <li><a class="text-muted" href="#">FAQ</a></li>
+                            <li><a class="text-muted" href="#">Términos y condiciones</a></li>
+                        </ul>
+                    </div>--%>
+
+                </div>
+            </footer>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
